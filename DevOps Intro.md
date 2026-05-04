@@ -1,5 +1,6 @@
 
 What is DevOps?
+---------------
 
 SDLC -> Software Development Life Cycle
 
@@ -32,8 +33,12 @@ All these above stakeholders must be satisfied with the business.
 Year End exam:
 ---------------
 Parents -> Fee pay
+
 Students -> Study
+
+
 Teachers -> teach
+
 
 
 results -> 40%
