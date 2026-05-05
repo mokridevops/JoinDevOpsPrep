@@ -52,6 +52,41 @@ Linux -> developed using C language from scratch -> using Unix principles
 
 Kernel -> Like heart and brain (Hardware interaction)
 
+Linux is kernel
+
+Oracle, Redhat, Debian, etc. -> distributions/flavours
+all these flavors are 99% same, only the utilities might be different between these falvors
+
+Opensource/Enterprise
+
+Enterprise -> Support, if problem comes, they join our call and resolve the issue asap
+
+Redhat Enterprize Linux -> RHEL (companies use this one generally) => centos ==> AWS Linux ==> fedora  (all these are Redhat family)
+
+AWS Linux 2023 ->
+Redhat image 
+
+
+on AWS console:
+
+EC2:
+
+Authentication and Firewall:
+----------------------------
+
+Authentication is 3 types:
+1. what you know -> user name and password
+2. what you have -> RSA token, Authentication, Public Key and Private Key,  etc..
+3. what you are -> Retina, palm, fingerprint, etc..
+
+
+app.diagrams.net
+
+
+
+
+
+
 
 
 
