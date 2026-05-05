@@ -19,3 +19,44 @@ usually they provide - 6 AZ, we need just 2 AZ's.
 
 In one availability zone , we need to order server, install OS, Power Connection, Network, AC, Physical Security, etc...
 
+Migrate to Cloud
+
+Computer - any IP enabled device
+OS -> Embedded Linux -> Bridge between User and Hardware
+RAM
+Hard disk
+Processor
+
+Windows vs Linux
+================
+
+User interface is heavy in windows -> Slow
+Linux is super speed
+
+Linux is more secured than Windows
+Linux - low power
+Linux - low bandwidth
+Linux - low Ram
+Linux - long running servers - for years
+Linux - Open source -> almost free
+
+Linux -> Kernel 
+Linux Torvalds -> invented -> Git, Linux  (greatest invetions of the century)
+
+IBM BIOS OS (Personal Laptop), Server(Hardware + OS) -> Unix OS
+
+Hardware + Software -> Tight coupling
+Dell -> 
+
+Linux -> developed using C language from scratch -> using Unix principles
+
+Kernel -> Like heart and brain (Hardware interaction)
+
+
+
+
+
+
+
+
+
