@@ -83,6 +83,117 @@ Authentication is 3 types:
 app.diagrams.net
 
 
+Public Key, Private Key
+
+Public Key - will be in server
+
+Private Key - with us
+
+
+ssh-keygen -f <file-name> -> it will generate two keys , public and private
+
+
+Install git bash
+
+git -> interact with git repos, mini linux ( we can use linux commands in windows)
+
+pwd -> present working directory
+/c/Users/siva - this is by default lauched
+
+cd -> change directory
+
+Firewall -> authorized persons will only have access
+
+two types of traffic -> 
+inbound/ingress -> incomming traffic -> we check and allow
+outbound/egress -> outgoing traffic -> usually we allow egress traffic everyone
+
+SSH -> Secure shell -> protocol to connect Linux Servers terminal access
+
+http -> hypertext transfer protocol 
+https, ftp, ssh, mysql, smtp, telnet, dhcp, udp, etc..
+
+Connection/Communication between multiple computers 
+
+
+https://facebook.com:443 -> facebook DB
+http://facebook.com:80
+
+each protocol will have one protocol
+
+in our laptop - we will have 0 - 65,535 = 65,535 ports are available
+
+to connect to any server we need the following:
+
+protocol, IP, port number, authentication
+
+ssh facebook server -> admin access
+
+with ssh -> we can access facebook server , with http or https - we can access an application on the server.
+
+with the above protocol's we can have different level of access to the server or application
+
+ssh -> by default port number is: 22
+
+
+
+Firewall is called as Security Group
+
+Firewall/Security Gorup -> SSH 22 allow specific Address
+
+firewall/security group -> SSH 22 allow 0.0.0.0/0
+
+
+ssh -i <private-key> ec2-user@IP-address
+
+1. read the description of error
+2. the search in google
+3. put in slack
+4. join qa sessions
+
+/home/<user-name> -> ec2-user -> AWS default user
+
+command -> understand the usage
+
+command <options> <inputs>
+
+-a -> single char - short version
+--all -> all information
+
+uname --help
+
+history - lists last used commands
+
+
+2 types of user in linux:
+1. normal user -> $
+2. admin user -> #
+
+sudo su  -> it will make it an admin user
+
+
+Absolute path - from starting
+Relative Path - from where you are 
+
+/c/devops/daws-90s -> absolute path
+daws-90s/daws-90s
+
+Linux Commands
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
