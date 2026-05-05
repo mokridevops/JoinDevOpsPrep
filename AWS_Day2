@@ -1,1 +1,21 @@
 
+AWS:
+------
+------
+
+Regions and Availability Zones
+
+HYD -> Region
+North HYD -> Availability Zone 1
+South HYD -> Availability Zone 2
+
+Region has atleast 2 or many
+
+us-east-1 -> N.Virginia -> Cheapest region, new services are going to be launced here
+
+latency -> may be high, we can't notice
+
+usually they provide - 6 AZ, we need just 2 AZ's.
+
+In one availability zone , we need to order server, install OS, Power Connection, Network, AC, Physical Security, etc...
+
