@@ -93,7 +93,8 @@ Public Key - will be in server
 Private Key - with us
 
 
-ssh-keygen -f <file-name> -> it will generate two keys , public and private
+**ssh-keygen -f {file-name}** -> it will generate two keys , public and private
+----------------------------------
 
 
 Install git bash
