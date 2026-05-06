@@ -147,7 +147,7 @@ Firewall/Security Gorup -> SSH 22 allow specific Address
 firewall/security group -> SSH 22 allow 0.0.0.0/0
 
 
-ssh -i <private-key> ec2-user@IP-address
+**ssh -i <private-key> ec2-user@IP-address**
 
 1. read the description of error
 2. the search in google
