@@ -102,6 +102,8 @@ How to download the files:
 --------------------------
 wget <url> -> download the file
 curl <url> -> directly shows on the screen (does not download) -> we will use it in scripting and hitting API's
+curl -o notes.txt <url> - it is going to put all the contnet of the url in notes.txt - so it is downloading and putting in notes.txt
+
 
 <img width="1628" height="504" alt="image" src="https://github.com/user-attachments/assets/866bcd32-87a6-41a1-b977-1cf0baf6a36c" />
 
@@ -132,8 +134,29 @@ linux , Linux are both different - it is case sensitive
 
 grep -v linux file -> not matching linux
 
+piping:
+-------
+
+| -> pipe
+
+curl -s 
 
 
+<img width="1652" height="901" alt="image" src="https://github.com/user-attachments/assets/c803e52b-2073-4729-bf16-233ee57271c7" />
+
+
+
+<img width="1658" height="321" alt="image" src="https://github.com/user-attachments/assets/c6a95e8d-30bf-4e33-8340-be9b3a2105cf" />
+
+
+
+<img width="1184" height="901" alt="image" src="https://github.com/user-attachments/assets/a57d922a-1d33-444b-9ffb-6aed02d689cb" />
+
+* Interview question
+
+  print lines 10 - 14
+
+  
 
 
 
