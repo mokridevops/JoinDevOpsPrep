@@ -124,7 +124,7 @@ http://facebook.com:80
 
 each protocol will have one protocol
 
-in our laptop - we will have 0 - 65,535 = 65,535 ports are available
+in our laptop - we will have 0 - 65,535 = 65,536 ports are available
 
 to connect to any server we need the following:
 
