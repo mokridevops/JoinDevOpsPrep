@@ -43,6 +43,9 @@ Linux - Open source -> almost free
 Linux -> Kernel 
 Linux Torvalds -> invented -> Git, Linux  (greatest invetions of the century)
 
+<img width="370" height="268" alt="image" src="https://github.com/user-attachments/assets/5f6dcd70-961e-4086-a474-b24acebf7d5d" />
+
+
 IBM BIOS OS (Personal Laptop), Server(Hardware + OS) -> Unix OS
 
 Hardware + Software -> Tight coupling
