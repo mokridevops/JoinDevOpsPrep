@@ -157,6 +157,76 @@ curl -s
   print lines 10 - 14
 
   
+head and tail commands:
+----------------------
+head -> prints top 10 lines
+tail -> prints bottom 10 lines
+
+cut:
+----
+https://raw.githubusercontent.com/adws-90s/notes/refs/heads/main/session02.txt
+
+cut -d "/" -f9 
+
+
+<img width="1725" height="519" alt="image" src="https://github.com/user-attachments/assets/16459a4d-0fef-4b86-aaba-c163f9778c3e" />
+
+
+
+
+
+<img width="1730" height="880" alt="image" src="https://github.com/user-attachments/assets/c8b378a0-06bc-4cb1-96dc-fdeed80aac9b" />
+
+/etc/passwd - has all linux users are here
+
+<img width="1241" height="902" alt="image" src="https://github.com/user-attachments/assets/d5007f34-1066-4795-bf5c-07866861486f" />
+
+<img width="1003" height="613" alt="image" src="https://github.com/user-attachments/assets/097a906d-ef17-4d99-9859-29f09a9e2f08" />
+
+<img width="1271" height="355" alt="image" src="https://github.com/user-attachments/assets/7b87f599-f1be-4fe0-9fc6-9d9c30410c3d" />
+
+awk command:
+------------
+<img width="1584" height="125" alt="image" src="https://github.com/user-attachments/assets/a2378639-d351-4ef6-a6dc-1f7e2c0baef1" />
+<img width="1280" height="624" alt="image" src="https://github.com/user-attachments/assets/c0b8b8f0-c2fb-461c-ad4c-82edce6fe7d7" />
+
+<img width="1147" height="625" alt="image" src="https://github.com/user-attachments/assets/64bd6115-c8f7-4fb3-845f-d6760481e00e" />
+
+awk -F ":" '{print $1F}'
+
+<img width="1581" height="244" alt="image" src="https://github.com/user-attachments/assets/5bfbde4c-d1e6-42cc-8969-ed5fe97b22ff" />
+
+
+
+<img width="1080" height="667" alt="image" src="https://github.com/user-attachments/assets/a1f56059-6206-4a5b-81be-f3643e089393" />
+
+all manual users created will have user id 1000+
+
+all OS created users will be less than 1000
+
+<img width="1017" height="373" alt="image" src="https://github.com/user-attachments/assets/c8710e01-f2bb-4d6c-8628-719e634bc8ba" />
+
+
+
+editors:
+---------
+
+vim editor
+
+
+Commands:
+--------
+ls, cat, tac, touch, mkdir, cp, mv, curl, wget, head, tail, grep, cut, awk
+
+
+
+
+
+
+
+
+
+<img width="363" height="463" alt="image" src="https://github.com/user-attachments/assets/4c836c90-afa6-4873-bb6d-657ab499dbe9" />
 
 
 
