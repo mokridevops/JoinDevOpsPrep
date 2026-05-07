@@ -144,9 +144,60 @@ d means deamon - which will run continously - it cannot be stopped (rakshashi no
 PasswordAuthentication no
 sshd -t -> check for syntax of /etc/ssh/sshd
 
-systemctl restart sshd
+systemctl restart sshd -> it will restart sshd service
 
 <img width="1022" height="422" alt="image" src="https://github.com/user-attachments/assets/4074e792-e858-4a8e-af70-e47d8feb85c7" />
+
+
+hwo to give sudo access:
+---------------------------
+1. add user to wheel group
+   usermod -aG wheel ramesh
+
+   id ramesh
+
+   ramesh should logout and login to effect
+
+   sudo useradd suresh - to perform administrative roles
+
+   
+   <img width="1274" height="795" alt="image" src="https://github.com/user-attachments/assets/bd310c56-2b98-49a9-9348-4e25c1b015de" />
+   
+
+<img width="817" height="409" alt="image" src="https://github.com/user-attachments/assets/08365421-9ef1-43f9-95b2-f6e2c428ba61" />
+
+<img width="966" height="409" alt="image" src="https://github.com/user-attachments/assets/74b77172-e03d-4b9d-991c-5c37f8d14d70" />
+
+<img width="692" height="306" alt="image" src="https://github.com/user-attachments/assets/b1f10b16-d7d3-4c3e-9e80-cc015f4d04c5" />
+
+<img width="1119" height="443" alt="image" src="https://github.com/user-attachments/assets/26225432-7681-4c65-a1fd-590c8ac58a4f" />
+
+<img width="1151" height="219" alt="image" src="https://github.com/user-attachments/assets/3733575c-9204-4d83-886f-856db3fd5a5d" />
+
+Ownership:
+--------
+
+chown -> onwer also can't execute this command, only root user can execute
+
+Chown user:group <filename>
+chown -R user:group <folder> -> everything inside this folder will get ownership set here
+
+Key-based authentication:
+-------------------------
+1. ramesh should generate keys
+2. he should send his public key to admin team
+
+**<img width="1426" height="710" alt="image" src="https://github.com/user-attachments/assets/dd4efda1-0e4d-44ae-bb7a-be1b671d56d3" />
+
+<img width="973" height="418" alt="image" src="https://github.com/user-attachments/assets/17667e84-0650-4353-a9b1-b22608df85da" />
+
+**
+
+
+
+
+
+
 
 
 
