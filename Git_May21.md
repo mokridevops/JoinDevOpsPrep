@@ -185,6 +185,151 @@ Install mysql command through shell script
 
 
 
+<img width="792" height="364" alt="image" src="https://github.com/user-attachments/assets/97e4a2cd-bcbb-4191-9756-a411433f2df9" />
+
+
+<img width="579" height="286" alt="image" src="https://github.com/user-attachments/assets/91ecdcaa-2250-404a-9e06-2f386a75029d" />
+
+
+Install mysql using shell:
+
+#echo "Installing MySQL"
+dnf install mysql -y
+
+if [$? -ne 0]
+
+
+
+<img width="388" height="214" alt="image" src="https://github.com/user-attachments/assets/f71a5a20-fff5-416a-b0c9-441fec4ec20b" />
+
+this is a failure result - so the shell script will exit
+
+
+<img width="930" height="331" alt="image" src="https://github.com/user-attachments/assets/da5ddd0c-e773-4ac5-b0c4-967b955bc420" />
+
+
+it is our responsibility to check everytime whether the previous command is success or no
+
+set -e  -> it will exit
+
+<img width="443" height="226" alt="image" src="https://github.com/user-attachments/assets/dc0d5cda-4673-48be-aefc-c13fb8f8f209" />
+
+<img width="1273" height="733" alt="image" src="https://github.com/user-attachments/assets/ae1dd449-fd09-4031-b29e-3886b522ab1f" />
+
+<img width="429" height="216" alt="image" src="https://github.com/user-attachments/assets/87bb4d9f-4b6e-449f-9dbf-736fac748735" />
+
+
+<img width="918" height="394" alt="image" src="https://github.com/user-attachments/assets/53d8feee-f167-466f-9b51-4e2a53084c74" />
+
+what else can we improve now?
+
+add another step, check if package is already installed or not? if installed display already installed, other wise install it
+
+
+<img width="1276" height="148" alt="image" src="https://github.com/user-attachments/assets/cf617136-4121-4345-97b4-5488a2875c3c" />
+
+<img width="894" height="131" alt="image" src="https://github.com/user-attachments/assets/89587e69-c635-46cb-8c96-e8ac77cf5f81" />
+
+<img width="1006" height="704" alt="image" src="https://github.com/user-attachments/assets/a0fe13fc-4802-4ebd-ba48-fa03ce3d872b" />
+
+
+
+<img width="595" height="588" alt="image" src="https://github.com/user-attachments/assets/32fd1444-8608-45c4-82e6-3440bb84674a" />
+
+
+
+
+<img width="547" height="347" alt="image" src="https://github.com/user-attachments/assets/50488607-603a-4b19-9049-d134c391fe72" />
+
+
+
+
+<img width="1303" height="433" alt="image" src="https://github.com/user-attachments/assets/bec83a5d-e3b6-40eb-a8ca-c967dd85c5fc" />
+
+
+<img width="1362" height="209" alt="image" src="https://github.com/user-attachments/assets/836a49f2-aa0c-499c-bfa7-7073c0448e15" />
+
+
+<img width="434" height="118" alt="image" src="https://github.com/user-attachments/assets/50083b6e-d1b9-42d0-9f40-1a221f04f9b7" />
+
+
+<img width="919" height="643" alt="image" src="https://github.com/user-attachments/assets/7e4ea501-0a33-4ffc-bda7-c723f3ee5074" />
+
+<img width="561" height="633" alt="image" src="https://github.com/user-attachments/assets/e738b2bb-8e60-4a87-983f-3983c1f68fe6" />
+
+
+<img width="623" height="497" alt="image" src="https://github.com/user-attachments/assets/6d3bda34-f2e8-4785-aad4-61994810230c" />
+
+<img width="1275" height="577" alt="image" src="https://github.com/user-attachments/assets/5f9d6273-6291-414c-88ec-72569af01805" />
+
+
+
+<img width="652" height="664" alt="image" src="https://github.com/user-attachments/assets/68b467e7-33ae-473f-963d-512835a9e772" />
+
+<img width="375" height="176" alt="image" src="https://github.com/user-attachments/assets/aac46ef4-63b4-4090-9129-c553b3ceb21c" />
+
+<img width="578" height="160" alt="image" src="https://github.com/user-attachments/assets/5617150a-a370-4b17-bf8e-acce891b00d6" />
+
+the output is stored in output.log
+
+
+
+<img width="525" height="240" alt="image" src="https://github.com/user-attachments/assets/054b8593-ce9e-4ff6-8440-5b2da05a49b7" />
+
+error is not stored in output.log
+
+Logs:
+-----
+
+<img width="710" height="642" alt="image" src="https://github.com/user-attachments/assets/70660a1c-fa8e-4cb5-90a6-5f9dfdf70409" />
+
+<img width="709" height="505" alt="image" src="https://github.com/user-attachments/assets/7c77317c-ccea-4981-8ebb-17d4d99ef15f" />
+
+<img width="782" height="245" alt="image" src="https://github.com/user-attachments/assets/e8284c4b-8f7b-418e-88e5-d7d89f0321b8" />
+
+<img width="1477" height="857" alt="image" src="https://github.com/user-attachments/assets/f7707192-06bf-4dd1-9631-76738591f130" />
+
+<img width="1117" height="757" alt="image" src="https://github.com/user-attachments/assets/646deb3c-cfef-4614-9d73-7557a808f990" />
+
+<img width="757" height="648" alt="image" src="https://github.com/user-attachments/assets/5242be94-acaf-4909-b403-aba12a854d84" />
+
+
+
+<img width="568" height="154" alt="image" src="https://github.com/user-attachments/assets/ff13501e-c63f-416a-be8b-5aeff453eb37" />
+
+<img width="1019" height="543" alt="image" src="https://github.com/user-attachments/assets/ffd34f34-37e0-4e6c-a801-64c750bb3551" />
+
+<img width="936" height="629" alt="image" src="https://github.com/user-attachments/assets/520049bb-6e7f-49aa-ac59-6c068a6eb947" />
+
+<img width="1273" height="739" alt="image" src="https://github.com/user-attachments/assets/9de2e939-bd0a-4eaa-a62f-ec8aad40aea5" />
+
+<img width="919" height="203" alt="image" src="https://github.com/user-attachments/assets/75fb5f37-3ecb-44ed-9972-1778e1bc7705" />
+
+<img width="917" height="732" alt="image" src="https://github.com/user-attachments/assets/253a330a-7f7f-4752-9fd2-5b0bb0354490" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
