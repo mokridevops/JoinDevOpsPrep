@@ -121,7 +121,30 @@ echo -e "\e[31m Hello \e[33m World"
 
 Hello in Red
 World in Yellow
+
 <img width="577" height="97" alt="image" src="https://github.com/user-attachments/assets/a153216c-e625-4399-a8bd-2f4cccb9f3a4" />
+
+
+Error Handling:
+---------------
+1. Expected Errors
+2. Unexpected Errors
+
+   Set -e
+   ---------
+<img width="242" height="173" alt="image" src="https://github.com/user-attachments/assets/61376eb3-3ec9-47da-842f-24ac5a9cdcb8" />
+
+<img width="567" height="61" alt="image" src="https://github.com/user-attachments/assets/bb1adc42-91d9-44b6-9bec-1957a2654c1d" />
+
+on putting -> set -e , the control stops once the script encounters errors.
+
+
+ Trap Command:
+
+ <img width="574" height="458" alt="image" src="https://github.com/user-attachments/assets/66aa825d-5e14-4173-8813-ec808522111f" />
+
+<img width="577" height="65" alt="image" src="https://github.com/user-attachments/assets/306f84b6-7588-4b5d-8a8c-4e07ac1d4ff8" />
+
 
 
 
