@@ -92,6 +92,36 @@ output:
 
 
 
+Loops:
+--------------
+
+for number in {1..200}
+do 
+  statements
+done
+
+
+date format:
+-------------
+
+> date +%Y-%m-%d %H:%M%S
+>
+> you can add this as timestamp:
+
+<img width="614" height="479" alt="image" src="https://github.com/user-attachments/assets/f4206463-5d3f-4d2f-8ac9-72de18a1268d" />
+
+
+Linux Colors:
+------------
+R -> 31
+G -> 32
+Y -> 33
+
+echo -e "\e[31m Hello \e[33m World"
+
+Hello in Red
+World in Yellow
+<img width="577" height="97" alt="image" src="https://github.com/user-attachments/assets/a153216c-e625-4399-a8bd-2f4cccb9f3a4" />
 
 
 
